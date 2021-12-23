@@ -41,23 +41,23 @@ struct DetailFilmView: View {
                 Text("Steve Rogers, a rejected millitary soldier, transform into Captain America after taking a dose of a Super Soldier serum. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization").padding()
                 
                 HStack {
-                    Text("Genre")
+                    Text("Genre").padding(.horizontal)
                     
-                    Text("Action, Adventure, Sci-Fi")
+                    Text("Action, Adventure, Sci-Fi").padding(.horizontal)
                     Spacer()
                 }.padding()
                 
                 HStack {
-                    Text("Director")
+                    Text("Director").padding(.horizontal)
                     
-                    Text("Joe Johnston")
+                    Text("Joe Johnston").padding(.horizontal)
                     Spacer()
                 }.padding()
                 
                 HStack {
-                    Text("Actors")
+                    Text("Actors").padding(.horizontal)
                     
-                    Text("Chris Evans, Hayley Atwell")
+                    Text("Chris Evans, Hayley Atwell").padding(.horizontal)
                     Spacer()
                 }.padding()
             }
