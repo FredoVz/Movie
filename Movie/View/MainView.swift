@@ -56,7 +56,7 @@ struct MainView: View {
                     }
                 }
             
-                .navigationTitle("Movies")
+                .navigationTitle("Nice Movie")
         }
     }
 }
