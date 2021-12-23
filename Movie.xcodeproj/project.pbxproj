@@ -18,6 +18,7 @@
 		B9003AC1277418A000F6697D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9003AC0277418A000F6697D /* Movie.swift */; };
 		B9003AC327741D9300F6697D /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9003AC227741D9300F6697D /* MovieListViewModel.swift */; };
 		B9003AC927742AD100F6697D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9003AC827742AD100F6697D /* String+Extension.swift */; };
+		B9003ACB277442A300F6697D /* DetailFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9003ACA277442A300F6697D /* DetailFilmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B9003AC227741D9300F6697D /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		B9003AC42774227D00F6697D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B9003AC827742AD100F6697D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B9003ACA277442A300F6697D /* DetailFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				B9003A962774122900F6697D /* MainView.swift */,
+				B9003ACA277442A300F6697D /* DetailFilmView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9003ACB277442A300F6697D /* DetailFilmView.swift in Sources */,
 				B9003A972774122900F6697D /* MainView.swift in Sources */,
 				B9003ABF277417E100F6697D /* WebServiceViewModel.swift in Sources */,
 				B9003AC1277418A000F6697D /* Movie.swift in Sources */,
